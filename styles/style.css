@@ -1,15 +1,10 @@
-#logo {
+.container {
     background-color: #000;
-}
-
-img {
-    background-color: #fff;
-    width: 100px;
-
+    height: 5vh;
 }
 
 h1 {
     color: #fff;
-    background-color: aqua;
-    width: 50vw;
+    text-align: center;
+    padding-top: 0.5vh;
 }
