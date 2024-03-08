@@ -1,10 +1,15 @@
-.container {
-    background-color: #000;
+.container{
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
     height: 5vh;
 }
 
 h1 {
     color: #fff;
-    text-align: center;
-    padding-top: 0.5vh;
+    padding-left: 1vh;
 }
+
