@@ -5,11 +5,52 @@
 .logo {
     display: flex;
     justify-content: center;
-    height: 5vh;
+    height: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 h1 {
+    padding-top: 3px;
     color: #fff;
-    padding-left: 1vh;
+    padding-left: 3vh;
+    font-size: 40px;
 }
 
+img {
+    padding-top: 3px;
+    height: 80%;
+}
+
+.centro{
+    width: 100vw;
+    text-align: center;
+    padding: 2vh;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+p {
+    color: #fff;
+    font-size: 25px;
+    padding: 2vh;
+}
+
+.botoes{
+    width: 100vw;
+}
+
+#button {
+    display: flex;
+    background-color: #56008c;
+    color: #FFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
