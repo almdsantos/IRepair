@@ -2,13 +2,14 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .inputBox{
     position: relative;
     color: #fff;
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 .inputUser {
@@ -18,7 +19,7 @@ h2 {
     outline: none;
     color: white;
     font-size: 15px;
-    width: 80%;
+    width: 100%;
     letter-spacing: 2px;    
 }
 
