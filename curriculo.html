@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curriculo</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/curriculo.css">
@@ -12,6 +12,22 @@
     <div class="login-container">
         <h2>Curriculo</h2>
         <form action="#" method="post">
+            <div class="inputBox">
+                <input type="text" name="nome" class="inputUser" required>
+                <label class="label_input" for="nome">Nome</label>
+            </div><br>
+            <div class="inputBox">
+                <input type="text" name="email" class="inputUser" required>
+                <label class="label_input" for="email">email</label>
+            </div><br>
+            <div class="inputBox">
+                <input type="text" name="senha" class="inputUser" required>
+                <label class="label_input" for="senha">Senha</label>
+            </div><br>
+            <div class="inputBox">
+                <input id="date" type="date">
+                <label class="label_input" for="datadenascimento">data de nascimento</label>
+            </div><br>
             <div class="inputBox">
                 <input type="text" name="certicacao" class="inputUser" required>
                 <label class="label_input" for="certicacao">Documento de Certificação</label>
@@ -30,9 +46,10 @@
             </div><br>
             <div class="button">
                 <input type="submit" name="submit" id="submit" value="PROSSEGUIR"> 
+                
             </div>
         </form>
-    </div>  
+    </div> 
     
 </body>
 </html>
