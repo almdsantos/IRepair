@@ -6,6 +6,7 @@
     <title>Login Profissional</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
     <div class="login-container">
@@ -13,17 +14,21 @@
         <form action="#" method="post">
             <div class="inputBox">
                 <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                <label class="label_input" for="endereco">Endereço</label>
+                <label class="label_input" for="endereco">Usuário</label>
             </div><br>
-            <div class="inputBox">
+            <div class="inputBox senha">
                 <input type="password" name="senha" id="senha" class="inputUser" required>
                 <label class="label_input" for="senha">Senha</label>
             </div><br>
             <div class="button">
-                <a href="home.php"><input type="button" name="cancel" id="cancel" value="CANCELAR"></a>
+                <a href="index.html"><input type="button" name="cancel" id="cancel" value="CANCELAR"></a><br>
                 <input type="submit" name="submit" id="submit" value="ENVIAR"> 
             </div>
             </form>
+            <div class="links">
+                <a href="#" class="link">Esqueceu a senha?</a><br>
+                <a href="#"  class="link">Cadastrar</a>
+            </div>
     </div>
 </body>
 </html>
