@@ -23,9 +23,9 @@ img {
 }
 
 .centro{
+    margin-bottom: 20vw;
     width: 100vw;
     text-align: center;
-    padding: 2vh;
     justify-content: center;
     margin-top: 4vh;
 }
@@ -36,29 +36,21 @@ p {
     padding: 2vh;
 }
 
-.botoes{
-    width: 100vw;
+/* Aqui vem a configuração do link  */
+.links {
+    width: 100%;
+    text-align: center;
 }
 
-#button {
-    display: flex;
-    background-color: #56008c;
-    color: #FFF;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h3 {
-    margin-left: auto;
-    margin-right: auto;
+.button {
+    background-color: #6620d6;
+    color: #fff;
+    text-decoration: none;
     font-size: 20px;
-}
-
-#modal {
-    width: 400px;
-    height: 300px;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 20px;
+    padding: 10px 25% 10px 25%;
+    border: #fff 1px solid;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
 }
