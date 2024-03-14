@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/botao.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/grid_css.css">
     <title>IRepair</title>
 </head>
 <body>
-    <header class="container">
-        <div class="logo">
-            <img src="assets/logo.png" alt="logo">
-            <h1>IREPAIR</h1>
+    <div class="grid-container">
+        <div class="grid-item cabecalho">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+                <h1>I Repair</h1>
+            </div>
+        </div>        
+        <div class="grid-item pink">
+            <h2>BEM VINDO A IREPAIR, COMO VAMOS PROSSEGUIR</h2>
         </div>
-    </header>
-    <main>
-        <div class="centro">
-            <p>Bem vindo a IREPAIR</p>
-            <img src="assets/computador.png" alt="">
-            <p>Como quer prosseguir? </p>
+        <div class="grid-item yellow">
+            <img src="assets/computador.png">
         </div>
-    </main>
-    <div class="links">
-        <a class="professionalButton" href="professional/loginProfessional.html">Profissional</a><br><br>
-        <a class="clienteButton" href="client/loginClient.html">Cliente</a>
-    </div>
+        <div class="grid-item red">
+            <button><a href="professional/loginProfessional.html" class="links">Profissional</a></button>
+        </div>
+        <div class="grid-item green">
+            <button><a href="client/loginClient.html" class="links">Cliente</a></button>
+        </div>
+      </div>
 </body>
 </html>
-

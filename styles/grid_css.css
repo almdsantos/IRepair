@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 20vh;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+}
+
+/* No item abaixo temos o grid da Logo */
+.cabecalho {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 100%;
+    height: 90%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+h1 {
+    padding-top: 3px;
+    color: #fff;
+    padding-left: 3vh;
+    font-size: 40px;
+}
+/* Aqui temos o grid onde encaixamos o grid do texto da lateral esquerda */
+.pink {
+    display: grid;
+    /* background-color: pink; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.pink h2 {
+    color: #fff;
+    font-size: 35px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+
+/* Aqui temos o grid da imagem de fundo */
+.yellow{
+    display: grid;
+    /* background-color: yellow; */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 9;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.yellow img {
+    display: block;
+}
+
+/* Aqui temos o  grid onde entra o botão profissional*/
+.red {
+    display: grid;
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+}
+
+/* Aqui temos o grid onde entra o botão cliente */
+.green {
+    display: grid;
+    /* background-color: green; */
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    width: 240px;
+    height: 40%;
+    background-color: #6620d6;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.links {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Agora vamos ajustar a responsividade*/
+
+@media (max-width: 685px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+        grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+    }
+    .pink {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 8;
+
+    }
+
+    .pink h2 {
+        color: #fff;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .yellow{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    } 
+    .yellow img {
+        width: 150px;
+    }
+
+    .red {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+
+    .green {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+}
+
+@media (max-width: 400px){
+    .pink {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+
+    }
+
+    .pink h2 {
+        color: #fff;
+        font-size: 20px;
+        width: 80%;
+        margin-top: -30px;
+        text-align: left;
+    }
+
+    .yellow{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    } 
+    .yellow img {
+        height: 200px;
+        width: 100px;
+    }
+
+    .red {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        padding-top: 20px;
+    }
+
+    .green {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+}
+
+@media (max-width: 1100px){
+    .yellow img {
+        width: 400px;
+    }
+    .pink h2 {
+        font-size: 20px;
+    }
+    button {
+        width: 200px;
+    }
+} 
+
+@media (max-width: 850px){
+    .yellow img {
+        width: 300px;
+    }
+    .pink h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    button {
+        width: 170px;
+    }
+}
