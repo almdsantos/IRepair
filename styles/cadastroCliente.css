@@ -1,3 +1,16 @@
-h2 {
-    margin-bottom: 30px;
-}
+.login-container{
+    overflow: hidden;
+    
+} #submit{
+        margin-left: 10%;
+        margin-top: 21%;
+        margin-bottom: 20px;
+        background-color: #6620d6;
+        width: 80%;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 20px;
+        color: #fff;
+        border: #fff 1px solid;
+        overflow: hidden;
+    }

@@ -1,3 +1,7 @@
+.login-container{
+    overflow: hidden;
+    
+}
 #submit{
     margin-left: 10%;
     margin-top: 21%;
@@ -9,4 +13,5 @@
     font-size: 20px;
     color: #fff;
     border: #fff 1px solid;
+    overflow: hidden;
 }
