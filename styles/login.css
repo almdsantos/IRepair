@@ -1,3 +1,7 @@
+.login-container {
+    overflow: hidden;
+}
+
 .inputBox{
     font-size: 20px;
 }

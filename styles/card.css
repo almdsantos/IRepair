@@ -2,7 +2,7 @@
 .login-container {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    overflow: auto;
+    overflow: scroll;
     width: 80vw;
     height: 80vh;
     top: 50%;
@@ -25,7 +25,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .inputBox{
@@ -60,4 +60,11 @@ h2 {
     top: -20px;
     font-size: 12px;
     color: #fff;
+}
+
+.data_nasci {
+    border-radius: 15px;
+    color: #fff;
+    outline: none;
+    text-align: left;
 }
