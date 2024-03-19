@@ -56,9 +56,10 @@ h1 {
 
 /* No trecho abaixo cuidaremos da imagem*/
 #imagem{
+    /* background-color: #fff; */
     display: flex;
     display: -webkit-flex;
-    width: 100%;
+    width: 50%;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -70,30 +71,32 @@ h1 {
 /* No trecho abaixo cuidaremos da parte textual*/
 
 #maisInfo{
+    /* background-color:aqua; */
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
     align-items: center;
+    margin-top: 3vw;
 }
 
 #maisInfo h3{
     color: white;
     font-size: 24px;
-    margin-bottom: 7vw;
+    margin-bottom: 3vw;
 }
 
 
 #maisInfo h4 {
     color: #fff;
     font-size: 18px;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 
 #maisInfo p {
     color: #fff;
-    margin-bottom: 8vw;
+    margin-bottom: 5vw;
 }
 
 a{
@@ -114,11 +117,41 @@ a{
     #imagem #imgTelaPedido{
         width: 320px;
     }
+
+    #maisInfo{
+        margin-top: 4vw;
+    }
+    
+    #maisInfo h3{
+        margin-bottom: 3vw;
+    }
+    
+    
+    #maisInfo h4 {
+        margin-bottom: 1vw;
+    }
+    
+    #maisInfo p {
+        margin-bottom: 6vw;
+    }
 }
 
 @media (max-width: 900px){
     #imagem #imgTelaPedido{
         width: 240px;
+    }
+
+    #maisInfo h3{
+        margin-bottom: 5vw;
+    }
+    
+    
+    #maisInfo h4 {
+        margin-bottom: 1vw;
+    }
+    
+    #maisInfo p {
+        margin-bottom: 10vw;
     }
 }
 
@@ -139,10 +172,21 @@ a{
         height: 100%;
     }
     #maisInfo h3 {
-        margin-top: 10vw;
+        margin-top: 1vw;
     }
 
+    #maisInfo h3{
+        margin-bottom: 5vw;
+    }
     
+    
+    #maisInfo h4 {
+        margin-bottom: 1vw;
+    }
+    
+    #maisInfo p {
+        margin-bottom: 8vw;
+    }
 }
 
 
@@ -157,5 +201,22 @@ a{
         margin-right: 10px;        
         margin-top: 10px;
         height: 50px;
+    }
+
+    #maisInfo h3 {
+        margin-top: 2vw;
+    }
+
+    #maisInfo h3{
+        margin-bottom: 5vw;
+    }
+    
+    
+    #maisInfo h4 {
+        margin-bottom: 1vw;
+    }
+    
+    #maisInfo p {
+        margin-bottom: 10vw;
     }
 }
