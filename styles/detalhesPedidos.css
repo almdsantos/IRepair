@@ -43,13 +43,10 @@ h1 {
 .content{
     display: flex;
     flex-direction: row;
-    position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10vh;
     width: 80vw;
     height: 60vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 30px;
 }
 
