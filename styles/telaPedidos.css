@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Aqui deixamos a main com flex onde ele quebrara os pedidos conforme necessário */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+}
+
+/* Aqui deixamos um tamanho padrão para o card de pedidos */
+.pedido {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 260px;    
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* Daqui pra baixo vamos arrumar o conteudo dentro da card */
+.imgProblema{
+    width: 100px;
+}
+
+.nomeCliente{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+.expandir{
+    position: absolute;
+    font-size: 18px;
+    bottom: 0;
+    margin-bottom: 10px;
+    border-radius: 10PX;
+    border: 1px solid #fff;
+    padding: 5px;
+}

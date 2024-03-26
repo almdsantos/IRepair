@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     height: 35px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 4vh;
 }
 
@@ -27,7 +27,6 @@ h1 {
     padding-top: 3px;
     color: #fff;
     padding-left: 3vh;
-    margin-top: 13px;
     font-size: 36px;
 }
 
@@ -99,7 +98,7 @@ h1 {
     margin-bottom: 5vw;
 }
 
-a{
+#button{
     background-color: #6620d6;
     text-decoration: none;
     text-align: center;

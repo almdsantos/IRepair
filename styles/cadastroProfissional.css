@@ -1,26 +1,12 @@
-.nome-tela {
-    width: 100%;
-    height: 5vh;
-    padding-inline-end: 10px;
-    margin-bottom: 10px;
-}
-
-.nome-tela img {
-    width: 25px;
-    margin-left: 10%;
-    float: left;
-    margin-right: -20%;
-    margin-top: 7px;
-}
-
-h2 {
-    margin-top: 36px;
-    letter-spacing: 3px;
-}
-
-.login-container{
+/* .login-container{
     overflow: hidden;
+} */
+
+
+.nome-tela {
+    margin-bottom: 20px;
 }
+
 #submit{
     margin-left: 10%;
     margin-bottom: 20px;
@@ -34,28 +20,10 @@ h2 {
     overflow: hidden;
 }
 
-@media (max-width: 500px) {
-    h2 {
-        font-size: 20px;
-    }
-    .nome-tela img {
-        width: 20px;
-        margin-top: 2px;
-    }
-}
 
 
-.button {
-    margin-left: 10%;
-    margin-bottom: 20px;
-    background-color: #6620d6;
-    width: 80%;
-    height: 40px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: #fff;
-    border: #fff 1px solid;
-}
+
+
 
 .links {
     width: 100%;
