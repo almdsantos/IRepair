@@ -27,6 +27,19 @@ main{
     align-items: center;
 }
 
+
+.criarPedido{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+}
+
+.criarPedido img {
+    width: 64px;
+}
+
 /* Daqui pra baixo vamos arrumar o conteudo dentro da card */
 .imgProblema{
     width: 100px;

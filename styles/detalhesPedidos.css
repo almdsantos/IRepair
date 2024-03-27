@@ -108,6 +108,41 @@ h1 {
     padding: 15px 0;
 }
 
+/* Configurações abaixo válidas somente para a tela de Cliente */
+.label_input{
+    margin-bottom: 5px;
+    
+}
+
+.inputLabel{
+    margin-bottom: 20px;
+    background-color: #9260e2;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+}
+
+#buttonCliente{
+    background-color: #6620d6;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    width: 70%;
+    
+    border-radius: 15px;
+    font-size: 20px;
+    border: #fff 1px solid;
+    padding: 15px 0;
+    margin-top: 80px;
+}
+
+
+#labelDescricao{
+    height: 60px;
+}
+
+/* Configurações acima válidas somente para a tela de Cliente */
+
 
 @media (max-width: 1300px){
     #imagem #imgTelaPedido{
@@ -182,6 +217,10 @@ h1 {
     
     #maisInfo p {
         margin-bottom: 8vw;
+    }
+    
+    #buttonCliente{
+        margin-top: 10px;
     }
 }
 
