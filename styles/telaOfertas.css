@@ -14,25 +14,8 @@ main{
     height: 80vh;
     margin-top: 5vh;
     overflow: visible;
+    border-radius: 15px;
 
-    justify-content: start;
-    align-items: center;
-}
-
-.resume {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.expansive{
-    display: flex;
-    width: 49%;
-    height: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -64,7 +47,7 @@ main{
     margin-bottom: 15%;
     padding: 5px;
 }
-
+/* 
 .cardExpansive {
     display: flex;
     flex-direction: column;
@@ -80,4 +63,4 @@ main{
 .cardExpansive img{
     margin-top: 10%;
     border-radius: 100px;
-}
+} */
